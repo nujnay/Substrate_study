@@ -1,12 +1,9 @@
 
-const MAX_POINT:u32 = 100_000;
 fn main() {
-    let x = 5;
-    const TT:i8 = 0;
-    let x = x + 1;
-    let x = x * 2;
-    let spaces = "   ";
-    let spaces = spaces.len();
-    print!("{}", spaces);
-    // let a = [3;5]
+    let one = "3333";
+    multiple1(one);
+    println!("{}",one.to_string());
+}
+fn multiple1(&one: String) {
+    one = one + 1;
 }
