@@ -1,5 +1,5 @@
 mod front_of_house {
-    mod hosting {}
+    pub mod hosting {}
 }
 
 fn serve_order() {}
@@ -55,3 +55,4 @@ fn main() {
     let mut map = HashMap::new();
     map.insert(1, 2);
 }
+
