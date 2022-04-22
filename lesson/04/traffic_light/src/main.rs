@@ -1,5 +1,8 @@
 fn main() {
     println!("Hello, world!");
+    let trafficLight = TrafficLight::Yellow;
+    let second = trafficLight.time();
+    println!("{}", second);
 }
 
 enum TrafficLight {
@@ -14,7 +17,7 @@ impl TrafficLight {
             TrafficLight::Red => 60,
             TrafficLight::Green => 50,
             TrafficLight::Yellow => 10,
-            _ => {}
+            _ => 0
         }
     }
 }
