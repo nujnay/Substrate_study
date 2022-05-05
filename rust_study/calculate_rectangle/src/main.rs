@@ -30,5 +30,6 @@ fn main() {
         width: 10,
         length: 10,
     };
+    println!("{:#?}", rect.area());
     println!("{:#?}", rect.can_hold(&rect2));
 }
